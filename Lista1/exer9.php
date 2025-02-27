@@ -13,7 +13,7 @@
                         
         <div class="mb-3">
             <label for="raio_circ" class="form-label">Informe o raio do círculo:</label>
-            <input type="float" id="raio_circ" name="raio_circ" class="form-control">
+            <input type="number" step="0.01" id="raio_circ" name="raio_circ" class="form-control">
         </div>
         
         <button type="submit" class="btn btn-primary">Enviar</button>
