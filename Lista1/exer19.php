@@ -9,23 +9,13 @@
   <body>
     <h1>Exercício 19!</h1>
     
-    <form method="post" action="exer18resposta.php">
+    <form method="post" action="exer19resposta.php">
                         
     <div class="mb-3">
-        <label for="capital" class="form-label">Informe o valor do capital:</label>
-        <input type="number" step="0.01" id="capital" name="capital" class="form-control">
+        <label for="dias" class="form-label">Informe a quantidade de dias:</label>
+        <input type="number" id="dias" name="dias" class="form-control">
     </div>
-
-    <div class="mb-3">
-        <label for="taxa" class="form-label">Informe a taxa de juros:</label>
-        <input type="number" step="0.01" id="taxa" name="taxa" class="form-control">
-    </div>
-
-    <div class="mb-3">
-        <label for="meses" class="form-label">Informe o período em meses:</label>
-        <input type="number" id="meses" name="meses" class="form-control">
-    </div>
-        
+         
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
             
