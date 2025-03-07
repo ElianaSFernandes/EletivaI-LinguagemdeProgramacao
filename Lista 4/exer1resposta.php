@@ -24,7 +24,7 @@
         if ($_SERVER ['REQUEST_METHOD'] == "POST"){
             try {
                 $palavra = $_POST['palavra'];
-                manipularString (strtolower ($palavra)); // strtolower transforma tudo em minúsculo
+                manipularString ($palavra); 
                 
             }catch (Exception $e){
                 echo "Erro: ".$e ->getMessage();
