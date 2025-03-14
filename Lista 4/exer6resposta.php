@@ -38,5 +38,3 @@
 
 
 
-Crie um programa em PHP que recebe um número de ponto flutuante
-e retorna o número arredondado.
