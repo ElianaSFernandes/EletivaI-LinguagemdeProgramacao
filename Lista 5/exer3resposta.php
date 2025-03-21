@@ -45,7 +45,7 @@ declare(strict_types=1); //obriga a tipagem da qualquer método ou atributo
             });
 
             foreach ($dados as $codigo => $produto) {
-                echo "<br>Código: {$codigo} Produto: {$produto['nome']} Preço: R$"  . number_format($produto['preco'], 2, ',', '.'). "</br>";
+                echo "<p>Código: {$codigo} Produto: {$produto['nome']} Preço: R$"  . number_format($produto['preco'], 2, ',', '.'). "</p>";
             }
 
         } catch (Exception $e) {
